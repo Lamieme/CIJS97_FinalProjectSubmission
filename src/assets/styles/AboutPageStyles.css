@@ -1,0 +1,419 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.top-bar p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.language-select {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.language-select img {
+    margin-left: 5px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #e0e0e0; 
+}
+
+.header-content h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.breadcrumb {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 50px; 
+    color: #777;
+    padding-left: 20px;
+
+}
+
+.breadcrumb a {
+    color: #777;
+    text-decoration: none;
+    margin-left: 10px; 
+}
+
+.breadcrumb span {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+.our-story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.our-story .content {
+    max-width: 40%; /* Chiếm 50% chiều rộng */
+    text-align: left;
+}
+
+.our-story .content h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.our-story .content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.our-story .image {
+    max-width: 50%; /* Chiếm 40% chiều rộng */
+}
+
+.our-story .image img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+.statistics {
+    display: flex;
+    justify-content: space-around; /* Canh đều khoảng cách giữa các mục */
+    gap: 20px; /* Khoảng cách giữa các mục */
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.stat-item {
+    width: 550px;
+    display: flex;
+    justify-content: center; /* Canh giữa nội dung theo chiều ngang */
+    align-items: center; /* Canh giữa nội dung theo chiều dọc */
+}
+
+.stat-item img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.stat-item.active {
+    color: #fff; 
+}
+
+
+
+.team {
+    display: flex;
+    justify-content: space-around; 
+    padding: 50px 0;
+}
+
+.team-member {
+    text-align: center;
+    width: 250px; /* Đặt kích thước cố định cho tất cả các thành viên */
+    margin: 0 20px; /* Khoảng cách giữa các thành viên */
+    padding: 0; /* Xóa padding để loại bỏ không gian bên trong hộp */
+    background-color: transparent; /* Loại bỏ màu nền của hộp */
+    box-shadow: none; /* Xóa đổ bóng để không còn khung */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Canh giữa nội dung trong mỗi thẻ thành viên */
+}
+
+.team-member img {
+    width: 450px; /* Kích thước đầy đủ của ảnh */
+    height: 450px;
+    margin-bottom: 15px;
+    object-fit: contain; /* Đảm bảo ảnh không bị cắt xén */
+    /* Không bo góc và không cắt ảnh thành hình tròn */
+}
+
+.team-member h4 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.team-member p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Căn giữa các biểu tượng mạng xã hội */
+    gap: 10px; /* Khoảng cách giữa các biểu tượng */
+}
+
+.social-links a img {
+    width: 20px; /* Kích thước biểu tượng */
+    height: 20px;
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Khoảng cách giữa các dấu chấm */
+    margin-top: 25px; /* Khoảng cách giữa các liên kết và dấu chấm */
+
+}
+
+.dot {
+    width: 10px; /* Kích thước dấu chấm */
+    height: 10px;
+    border-radius: 50%; /* Tạo hình tròn */
+    background-color: transparent; /* Nền trong suốt */
+}
+
+.black-dot {
+    background-color: #ccc; /* Màu đen cho dấu chấm bên trái và bên phải */
+}
+
+.red-dot {
+    width: 10px; /* Kích thước dấu chấm đỏ */
+    height: 10px;
+    background-color: red; /* Màu đỏ cho dấu chấm */
+    border: 2px solid #ccc; /* Viền đen bên ngoài dấu chấm đỏ */
+}
+
+
+
+
+.services-container {
+    display: flex; /* Sử dụng Flexbox để sắp xếp các mục dịch vụ nằm ngang hàng */
+    justify-content: space-between; /* Phân phối đều các mục dịch vụ với cái đầu nằm bên trái, cái giữa nằm giữa, cái cuối nằm bên phải */
+    align-items: center; /* Căn chỉnh các mục dịch vụ theo chiều dọc ở giữa */
+    gap: 20px; /* Khoảng cách giữa các mục dịch vụ */
+    width: 100%; /* Đảm bảo container có chiều rộng đầy đủ */
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng cộng */
+    margin-top: 50px
+}
+
+.service {
+    flex: 1; /* Các mục dịch vụ sẽ có kích thước bằng nhau và chiếm không gian đều trong container */
+    text-align: center; /* Căn giữa văn bản bên trong các mục dịch vụ */
+    padding: 10px; /* Thêm padding để có khoảng cách bên trong mục dịch vụ */
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng cộng */
+}
+
+.service h4 {
+    font-size: 24px; /* Kích thước chữ tiêu đề */
+    margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+}
+
+.service p {
+    font-size: 14px; /* Kích thước chữ đoạn văn */
+    color: black; /* Màu chữ */
+    margin-bottom: 0; /* Loại bỏ khoảng cách dưới đoạn văn */
+}
+
+
+
+
+
+.footer-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.app-links {
+    display: flex;
+    align-items: flex-start; 
+    margin: 20px 0;
+}
+
+.qr-code {
+    max-width: 120px;
+    margin-right: 20px; 
+}
+
+.store-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.store-buttons a {
+    margin-bottom: 10px; 
+}
+
+.store-buttons img {
+    max-width: 140px; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.footer-section p {
+    margin: 15px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email-input-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.email-input-wrapper input {
+    background-color: black;
+    width: 85%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.email-input-wrapper .arrow-icon {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.app-links a {
+    display: block;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: #777;
+}

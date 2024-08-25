@@ -1,0 +1,404 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.top-bar {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.top-bar p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.language-select {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.language-select img {
+    margin-left: 5px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #e0e0e0; 
+}
+
+.header-content h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.breadcrumb {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px; /* Thêm khoảng cách phía trên */
+    color: #777;
+    padding-left: 20px;
+}
+
+.breadcrumb a {
+    color: #777;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    font-weight: bold;
+    color: #333;
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    /* Đã xóa box-shadow */
+}
+
+.billing-details {
+    width: 55%;
+}
+
+.billing-details h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.billing-details form {
+    display: flex;
+    flex-direction: column;
+}
+
+.billing-details label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.billing-details input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+.save-info {
+    display: flex;
+    align-items: center; 
+    font-size: 24px;
+}
+
+.save-info input[type="checkbox"] {
+    transform: scale(1.5); 
+    margin-right: 10px; 
+    position: relative; 
+    top: 5px; 
+}
+
+.save-info input[type="checkbox"]:checked {
+    accent-color: #d44c4c; 
+}
+.order-summary {
+    width: 40%;
+    padding-left: 20px;
+    box-sizing: border-box; 
+    margin-top: 85px;
+}
+
+.order-summary .products {
+    margin-bottom: 20px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-item img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.product-item .price {
+    font-weight: 500;
+}
+
+.summary {
+    margin-bottom: 20px;
+}
+
+.line-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 15px;
+}
+
+.line-item.total {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: none; 
+}
+
+.payment-methods {
+    margin-bottom: 20px;
+}
+
+.payment-methods label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.payment-methods img {
+    position: absolute;
+    right: 100px; 
+    top: 575px;
+    height: 20px;
+}
+
+
+.coupon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+
+.coupon input {
+    flex-grow: 1;
+    padding: 15px 20px; 
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+
+.coupon button {
+    padding: 15px 20px; 
+    background-color: #d44c4c;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.place-order {
+    display: block; 
+    width: auto;
+    padding: 15px 20px;
+    background-color: #d44c4c;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.place-order:hover {
+    background-color: #bf3d3d;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.app-links {
+    display: flex;
+    align-items: flex-start; 
+    margin: 20px 0;
+}
+
+.qr-code {
+    max-width: 120px;
+    margin-right: 20px; 
+}
+
+.store-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.store-buttons a {
+    margin-bottom: 10px;
+}
+
+.store-buttons img {
+    max-width: 140px; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.footer-section p {
+    margin: 15px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email-input-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.email-input-wrapper input {
+    background-color: black;
+    width: 85%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.email-input-wrapper .arrow-icon {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.app-links a {
+    display: block;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: #777;
+}

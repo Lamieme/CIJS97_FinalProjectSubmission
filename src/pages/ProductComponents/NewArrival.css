@@ -1,0 +1,61 @@
+.NewArrival{
+    display: flex;
+    gap: 30px;
+}
+.Array1, .Array2{
+    width: 570px;
+    height: 600px;
+    color: white
+}
+.Array1{
+    background-color: black;
+    color: white;
+    width: 570px;
+    height: 600px;
+}
+.Array1 img{
+    padding-left: 20px;
+    padding-top: 87px;
+}
+.Array2Parent{
+    width: 570px;
+    height: 284px;
+    background-color: black;
+}
+.Array2Parent img{
+    padding-left: 100px;
+}
+.Array2Parent h1,.Array1 h1, .Array2Children1 h1, .Array2Children2 h1{
+    font-size: 24px;
+}
+.Array2Parent p,.Array1 p, .Array2Children1 p, .Array2Children2 p{
+    font-size: 14px;
+}
+.Array2Parent a,.Array1 a, .Array2Children1 a, .Array2Children2 a{
+    font-size: 16px;
+    color: white;
+}
+.Array2Parent h1,.Array2Parent p,.Array2Parent a,
+.Array1 h1, .Array1 p,.Array1 a,
+.Array2Children1 h1, .Array2Children1 p, .Array2Children1 a,
+.Array2Children2 h1, .Array2Children2 p, .Array2Children2 a{
+    position: relative;
+    top: -160px;
+    left: 30px;
+    width: 255px;
+}
+.Array2Children{
+    display: flex;
+    gap: 30px;
+}
+.Array2Children1, .Array2Children2{
+    width: 270px;
+    height: 284px;
+    background-color: black;
+    margin-top: 30px;
+}
+.Array2Children1 img, .Array2Children2 img{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+

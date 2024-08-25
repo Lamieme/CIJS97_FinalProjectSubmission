@@ -1,0 +1,33 @@
+.Banner{
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    background-color: black;
+    margin-top: 150px;
+}
+.Banner .BannerRight .letter{
+    color: #00FF66;
+    font-size: 16px;
+    padding-top: 69px;
+    padding-left: 56px;
+}
+.Banner .BannerRight h1{
+    color: white;
+    padding-left: 56px;
+    font-size: 48px;
+    width: 443px;
+    height: 120px;
+}
+.Banner .BannerRight button{
+    background-color: #00FF66;
+    color: white;
+    width: 171px;
+    height: 56px;
+    border-radius: 4px;
+    margin-left: 56px;
+    margin-top: 40px;
+}
+.Banner .BannerLeft img{
+    padding-top: 30px;
+}
+

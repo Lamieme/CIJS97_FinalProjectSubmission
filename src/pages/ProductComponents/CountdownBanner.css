@@ -1,0 +1,12 @@
+.Cou{
+    display: flex;
+    gap: 24px;
+    padding-left: 56px;
+}
+.Time{
+    width: 58px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+
+}

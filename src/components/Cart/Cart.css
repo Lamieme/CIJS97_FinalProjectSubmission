@@ -1,0 +1,35 @@
+.Cart{
+    padding-top: 250px;
+    padding-left: 130px;
+}
+.Cart .Item{
+    display: flex;
+    gap: 120px;
+}
+.Cart .heading {
+    display: flex;
+    gap:120px;
+}
+.Cart .heading h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.Cart .Item .Product {
+    display: flex;
+    gap: 20px
+}
+.Cart .Item .Quantity {
+    display: flex;
+}
+.Cart .Item .Quantity  button{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
+.Cart .Item .Quantity  span{
+}.Cart .Item .Quantity  button:hover{
+    background-color: #DB4444;
+    color: white;
+}
+
+

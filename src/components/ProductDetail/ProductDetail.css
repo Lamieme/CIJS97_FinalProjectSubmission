@@ -1,0 +1,103 @@
+.ProductDetail{
+    padding-top:250px;
+    display: flex;
+    padding-left: 250px;
+}
+.ProductDetail .Left img{
+    width: 500px;
+    height: 600px;
+}
+.ProductDetail .Right{
+    padding-left: 60px;
+
+}
+.ProductDetail .Right h1{
+    font-size: 24px;  
+}
+.ProductDetail .Right .Price{
+    padding-top: 20px;
+}
+.ProductDetail .Right .Price span{
+    color: #DB4444;
+    font-size: 24px;
+}
+.ProductDetail .Right .Price .lastPrice{
+    color: #000000;
+    opacity: 50%;
+    padding-left: 10px;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+.ProductDetail .Right .Infor{
+    padding-top: 20px;
+    width: 350px;
+    font-size: 14px;
+}
+
+.ProductDetail .Right .color {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ProductDetail .Right .Quantity span{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom:7px ;
+    border: 1px solid black;
+}
+.ProductDetail .Right .Quantity Button{
+    width: 40px;
+    height: 44px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+}
+.ProductDetail .Right .Quantity Button:hover{
+    color: white;
+    background-color: #DB4444;
+}
+.ProductDetail .Right .Bnt{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.ProductDetail .Right .Bnt .Block{
+    width: 165px;
+    height: 44px;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.ProductDetail .Right .Bnt .Block:hover{
+    color: white;
+    background-color: #DB4444;
+}
+.RelatedItem{
+    padding-top: 50px;
+    padding-left: 175px;
+}
+.RelatedItem .box{
+    width: 20px;
+    height: 40px;
+    background-color: #DB4444;
+    border-radius: 5px;
+}
+.RelatedItem .Heading{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.RelatedItem .Heading h6{
+    font-size: 17px;
+    color: #DB4444;
+    padding-left: 16px;
+}
+
+
+
+
+
